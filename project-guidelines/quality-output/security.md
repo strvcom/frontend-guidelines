@@ -4,6 +4,7 @@ Security is an important aspect of all modern web applications. Implementing goo
 
 ## General rules
 
+- **Be informed of [OWASP Top 10](https://owasp.org/www-project-top-ten/) most critical security risks**, updated every ~57
 - Use encrypted protocols everywhere (HTTPS for web traffic, WSS for secure socket connection)
 - Don’t build custom authentication system yourself, use tried and tested libraries instead
 - Keep your dependencies up-to-date to prevent zero-day vulnerabilities
@@ -84,3 +85,6 @@ X-XSS-Protection: 1; mode=block
 - Use minimally scoped credentials for running Github Actions
 - Use Github Secrets for storing environment variables for Github Actions
 - Don't reference values in Github Actions that can be set by users (e.g. PR title and body)
+
+## Further resources
+On projects that demand higher levels of security, we recommend studying and executing OWASP's [Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/).
