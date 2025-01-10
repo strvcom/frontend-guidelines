@@ -4,7 +4,7 @@ Security is an important aspect of all modern web applications. Implementing goo
 
 ## General rules
 
-- **Be informed of [OWASP Top 10](https://owasp.org/www-project-top-ten/) most critical security risks**, updated every ~57
+- **Be informed of [OWASP Top 10](https://owasp.org/www-project-top-ten/) most critical security risks**, updated every ~5 years
 - Use encrypted protocols everywhere (HTTPS for web traffic, WSS for secure socket connection)
 - Don’t build custom authentication system yourself, use tried and tested libraries instead
 - Keep your dependencies up-to-date to prevent zero-day vulnerabilities
